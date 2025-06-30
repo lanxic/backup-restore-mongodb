@@ -1,0 +1,9 @@
+*.pyc
+__pycache__
+venv/*
+*.db
+*.json
+*.sql
+.idea
+.env
+rclone-gdrive-wwwaste/*
