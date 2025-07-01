@@ -14,7 +14,7 @@ RCLONE_DIR = os.getenv("RCLONE_DIR", "rclone-gdrive")
 
 date_str = datetime.now().strftime("%Y%m%d")
 BACKUP_DIR = f"{date_str}_{DATABASE}_backup"
-ARCHIVE_FILE = f"{BACKUP_DIR}.gz"
+ARCHIVE_FILE = f"{BACKUP_DIR}.tar.gz"
 
 def backup_mongodb(uri, database, backup_dir):
     try:
